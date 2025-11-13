@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Potato Farms Tokkebi Crispy Cookies",
+    "price": 17.85,
+    "brand": "Country Crock",
+    "category": "Snacks",
+    "image": "https://i.ibb.co.com/67WJChxT/Angie-s-Sweet-Salty-Kettle-Corn.png"
+  },
+  {
+    "id": 2,
+    "name": "Organic Congo Grade A Large Carrots",
+    "price": 7.10,
+    "brand": "Hamburger Hell",
+    "category": "Vegetables",
+    "image": "https://i.ibb.co.com/Dgsb4fNg/Organic-Cage-Grade-A-Large-Eggs.png"
+  },
+  {
+    "id": 3,
+    "name": "Haagen Caramel Cone Ice Cream",
+    "price": 22.66,
+    "brand": "Hamburger Hell",
+    "category": "Dessert",
+    "image": "https://i.ibb.co.com/wh0bQwbX/Cone-Ice-Cream.png"
+  },
+  {
+    "id": 4,
+    "name": "All Natural Style Chicken Meatballs",
+    "price": 21.00,
+    "brand": "Wonderful",
+    "category": "Frozen Foods",
+    "image": "https://i.ibb.co.com/b5Wdgfg2/All-Natural-Style-Chicken-Meatballs.png"
+  },
+  {
+    "id": 5,
+    "name": "She-Always Lightly Salted Vegetables",
+    "price": 21.85,
+    "brand": "Country Crock",
+    "category": "Vegetables",
+    "image": "https://i.ibb.co.com/PvC9JCGL/Blue-Almonds-Lightly-Salted-Vegetables.png"
+  },
+  {
+    "id": 6,
+    "name": "Cafe Altura Regular Burrismed Fish Fillets",
+    "price": 22.85,
+    "brand": "Country Crock",
+    "category": "Beverages",
+    "image": "https://i.ibb.co.com/Kpx6GvHt/Gorton-s-Beer-Battered-Fish-Fillets.png"
+  },
+  {
+    "id": 7,
+    "name": "Seeds of Change Organic Red Rice",
+    "price": 23.85,
+    "brand": "Hamburger Hell",
+    "category": "Grains",
+    "image": "https://i.ibb.co.com/tPb9Hvjy/Seeds.png"
+  },
+  {
+    "id": 8,
+    "name": "Canada Dry Ginger Ale – 1L Bottle",
+    "price": 23.85,
+    "brand": "Wonderful",
+    "category": "Beverages",
+    "image": "https://i.ibb.co.com/FLGrkMfG/Canada-Dry-Ginger-Ale-2-L-Bottle.png"
+  },
+  {
+    "id": 9,
+    "name": "Pearson Seafood Stuffed Almonds",
+    "price": 21.15,
+    "brand": "Country Crock",
+    "category": "Snacks",
+    "image": "https://i.ibb.co.com/kVzqR2F1/Stuffed-Alaskan.png"
+  },
+  {
+    "id": 10,
+    "name": "Angie’s Sweet & Salty Kettle Corn Veggie Pops",
+    "price": 24.85,
+    "brand": "Country Crock",
+    "category": "Snacks",
+    "image": "https://i.ibb.co.com/67WJChxT/Angie-s-Sweet-Salty-Kettle-Corn.png"
+  }
+]

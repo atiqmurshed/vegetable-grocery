@@ -1,9 +1,7 @@
 import useData from "../../Hooks/useData";
-
 import alt from '../../assets/images/alt.png'
 import alt1 from '../../assets/images/alt_2.png'
 import alt2 from '../../assets/images/alt_3.png'
-
 
 const Card = () => {
     const { item, loading } = useData()
@@ -13,7 +11,7 @@ const Card = () => {
     }
     return (
         <div className="container py-5 mx-auto">
-            <div className="flex justify-center gap-2">
+            <div className="flex flex-col-1 justify-center gap-2">
                 {item.map((dataItem, index) => (
                     <div key={index} className="flex flex-col items-center w-64 h-54 px-5 py-4 rounded-md bg-gray-100 text-center">
                         <img className="w-24 h-16 mb-2" src={dataItem.image} alt="" />
@@ -24,7 +22,7 @@ const Card = () => {
             </div>
 
             {/* big card data className="py-64" style={{ backgroundImage: `url(${alt})` }}*/}
-            <div className="flex justify-around gap-32 py-8 mr-36 mb-32">
+            <div className="flex justify-around gap-32 py-8 mr-36 mb-">
                 <div className="w-[200px]">
                     <img className="absolute w-[400px]" src={alt} alt="" />
                     <p className="relative text-xl px-2 mt-5">Everyday Fresh<br />

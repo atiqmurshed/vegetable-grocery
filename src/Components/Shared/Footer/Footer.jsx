@@ -1,25 +1,47 @@
 
-
 const Footer = () => {
+
     return (
         <div>
             <footer className="footer bg-base-300 text-base-content p-10">
                 <nav>
-                    <h6 className="footer-title">Services</h6>
+                    <h6 className="footer-title font-black text-black">Services</h6>
                     <a className="link link-hover">Branding</a>
                     <a className="link link-hover">Design</a>
                     <a className="link link-hover">Marketing</a>
                     <a className="link link-hover">Advertisement</a>
                 </nav>
                 <nav>
-                    <h6 className="footer-title">Company</h6>
+                    <h6 className="footer-title font-black text-black">Company</h6>
                     <a className="link link-hover">About us</a>
                     <a className="link link-hover">Contact</a>
                     <a className="link link-hover">Jobs</a>
                     <a className="link link-hover">Press kit</a>
                 </nav>
                 <nav>
-                    <h6 className="footer-title">Social</h6>
+                    <h6 className="footer-title font-black text-black">Account</h6>
+                    <a className="link link-hover">Sign In</a>
+                    <a className="link link-hover">Contact</a>
+                    <a className="link link-hover">Jobs</a>
+                    <a className="link link-hover">Press kit</a>
+                </nav>
+                <nav>
+                    <h6 className="footer-title font-black text-black">Corporate</h6>
+                    <a className="link link-hover">Become Vendors</a>
+                    <a className="link link-hover">Contact</a>
+                    <a className="link link-hover">Jobs</a>
+                    <a className="link link-hover">Press kit</a>
+                </nav>
+                <nav>
+                    <h6 className="footer-title font-black text-black">Popular</h6>
+                    <a className="link link-hover">Milk & Flavourd</a>
+                    <a className="link link-hover">Contact</a>
+                    <a className="link link-hover">Jobs</a>
+                    <a className="link link-hover">Press kit</a>
+                </nav>
+                <nav>
+                    <h6 className="footer-title font-black text-black">Install App</h6>
+                    <p className="text-gray-700">From App Store or Google Play</p>
                     <div className="grid grid-flow-col gap-4">
                         <a>
                             <svg
@@ -55,6 +77,7 @@ const Footer = () => {
                             </svg>
                         </a>
                     </div>
+                    <p className="text-gray-700">Secure Payment Getway</p>
                 </nav>
             </footer>
         </div>

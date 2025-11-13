@@ -7,7 +7,7 @@ const Navbar = () => {
     const navLinks = [
         <>
             <li><Link>About</Link></li>
-            <li><Link>Shop</Link></li>
+            <li><Link to='/shop'>Shop</Link></li>
             <li><Link>Mega Menu</Link></li>
             <li><Link>Vendors</Link></li>
             <li><Link>Blogs</Link></li>
