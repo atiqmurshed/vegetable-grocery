@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Cake",
+    "items": 11,
+    "image": "https://i.ibb.co.com/S7PvvhBK/Figure-7.png"
+  },
+  {
+    "id": 2,
+    "name": "Organic",
+    "items": 6,
+    "image": "https://i.ibb.co.com/hRR7xCh5/Figure-8.png"
+  },
+  {
+    "id": 3,
+    "name": "Peach",
+    "items": 6,
+    "image": "https://i.ibb.co.com/Z6Bby7rj/Figure-6.png"
+  },
+  {
+    "id": 4,
+    "name": "Apple",
+    "items": 10,
+    "image": "https://i.ibb.co.com/gZds5KV2/Figure-10.png"
+  },
+  {
+    "id": 5,
+    "name": "Snacks",
+    "items": 11,
+    "image": "https://i.ibb.co.com/ZR20nVRD/Figure-1.png"
+  },
+  {
+    "id": 6,
+    "name": "Vegetables",
+    "items": 6,
+    "image": "https://i.ibb.co.com/Fb1RdyBh/Figure-2.png"
+  },
+  {
+    "id": 7,
+    "name": "Strawberry",
+    "items": 10,
+    "image": "https://i.ibb.co.com/Y4tSq88B/Figure-3.png"
+  },
+  {
+    "id": 8,
+    "name": "Plum",
+    "items": 10,
+    "image": "https://i.ibb.co.com/LDt4bgZH/Figure-5.png"
+  },
+  {
+    "id": 9,
+    "name": "Custard",
+    "items": 10,
+    "image": "https://i.ibb.co.com/hx7LcQGP/Figure-9.png"
+  },
+  {
+    "id": 10,
+    "name": "Coffee",
+    "items": 11,
+    "image": "https://i.ibb.co.com/vCnSTfPP/Figure-4.png"
+  }
+]
