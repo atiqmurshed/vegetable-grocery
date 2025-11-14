@@ -1,3 +1,4 @@
+import { FaArrowRight } from "react-icons/fa";
 import useData from "../../Hooks/useData";
 import alt from '../../assets/images/alt.png'
 import alt1 from '../../assets/images/alt_2.png'
@@ -48,7 +49,8 @@ const Card = () => {
                         Products Online
                     </p>
                     <div className="p-2">
-                        <button className="relative bg-green-600 w-20 rounded-md text-white">Shop Now</button>
+                        <button className="relative bg-green-600 w-20 rounded-md text-white">Shop Now <FaArrowRight/></button>
+                        
                     </div>
                 </div>
             </div>

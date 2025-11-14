@@ -6,16 +6,16 @@ const Navbar = () => {
 
     const navLinks = [
         <>
-            <li><Link>About</Link></li>
-            <li><Link to='/shop'>Shop</Link></li>
-            <li><Link>Mega Menu</Link></li>
-            <li><Link>Vendors</Link></li>
-            <li><Link>Blogs</Link></li>
-            <li><Link>Pages</Link></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to='/shop'>About</Link></li>
+            <li><Link>Blog</Link></li>
             <li><Link>Content</Link></li>
+            <li><Link>Mega Menu</Link></li>
+            <li><Link>Pages</Link></li>
+            <li><Link></Link></li>
         </>
-
     ]
+
     return (
 
         <div className="navbar bg-base-100">
@@ -41,25 +41,25 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <div className="flex gap-2 items-center"> 
+                <div className="flex gap-2 items-center">
                     <img className="w-[120px]" src={navimg} alt="" />
                     <div className="flex gap-1 ml-2">
                         <img className="w-[20px] h-[20px]" src={hotd} alt="" />
                         <a className="text-sm">Hot Deals</a>
                     </div>
                 </div>
-                </div>
-                <div className="navbar-center hidden lg:flex">
-                    <ul className="menu ml-24 menu-horizontal px-1">
-                        {navLinks}
-                    </ul>
-                </div>
-                <div className="navbar-end">
-                    <a className="btn ">Login</a>
-                </div>
             </div>
+            <div className="navbar-center hidden lg:flex">
+                <ul className="menu ml-24 menu-horizontal px-1">
+                    {navLinks}
+                </ul>
+            </div>
+            <div className="navbar-end">
+                <a className="btn ">Login</a>
+            </div>
+        </div>
 
-            );
+    );
 };
 
-            export default Navbar;
+export default Navbar;
