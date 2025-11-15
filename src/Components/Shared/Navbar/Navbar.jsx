@@ -12,7 +12,6 @@ const Navbar = () => {
             <li><Link to='/contact'>Content</Link></li>
             <li><Link to="/menu">Mega Menu</Link></li>
             <li><Link>Pages</Link></li>
-            <li><Link></Link></li>
         </>
     ]
 
@@ -55,7 +54,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn ">Login</a>
+                <a className="btn bg-green-400">Login</a>
             </div>
         </div>
 
