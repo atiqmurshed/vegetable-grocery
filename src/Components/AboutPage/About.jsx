@@ -9,12 +9,23 @@ import icon2 from '../../assets/images/icon-3.png'
 import icon3 from '../../assets/images/icon-4.png'
 import icon4 from '../../assets/images/icon-5.png'
 import icon5 from '../../assets/images/icon-6.png'
+
+import about5 from '../../assets/images/about-5.png'
+
+import main from '../../assets/images/Main.png'
+import mai1 from '../../assets/images/Main-1.png'
+
+import aboutBG from '../../assets/images/469.png'
+
+import { FaFacebookSquare, FaInstagramSquare, FaTwitter, FaYoutube } from 'react-icons/fa'
+
+
 const About = () => {
 
     return (
 
         <div>
-            <div className='flex mx-auto my-2 px-24'>
+            <div className='flex mx-auto my-2 px-10'>
                 <div>
                     <img className='h-[480px] w-[1500px]' src={eggMaking} alt="loading" />
                 </div>
@@ -92,7 +103,7 @@ const About = () => {
                             alteration in some form</p>
                         <button>Read More</button>
                     </div>
-                    <div  className='bg-gray-100'>
+                    <div className='bg-gray-100'>
                         <img className='w-[80px] h-[80px] ml-32 m-2' src={icon5} alt="loading..." />
                         <h3>Best Prices & Offers</h3>
                         <p>There are many variations of passages of Lorem
@@ -103,6 +114,85 @@ const About = () => {
                 </div>
             </div>
 
+            <section className='flex mx-auto px-20 gap-8'>
+                <div>
+                    <img className='w-[900px] h-[350px]' src={about5} alt="" />
+                </div>
+                <div>
+                    <p className='p-2 text-gray-500'>our Performance</p>
+                    <h2 className='text-xl p-2 font-semibold'>Your Partner for e- <br />
+                        commerce grocery <br />
+                        solution</h2>
+                    <p className='p-2 text-gray-500'>Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+                        inventore veritatis et quasi architecto
+                    </p>
+                    <p className='p-2 text-gray-400'>Pitatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                    </p>
+                </div>
+            </section>
+
+            {/* section 2 */}
+
+            <section className='flex py-10 text-start gap-3 px-10'>
+                <div>
+                    <h2 className='text-xl font-semibold mb-2'>Who we are</h2>
+                    <p className='text-gray-500'>Volutpat diam ut venenatis tellus in metus. Nec dui nunc
+                        mattis enim ut tellus eros donec ac odio orci ultrices in.
+                        ellus eros donec ac odio orci ultrices in.</p>
+                </div>
+                <div>
+                    <h2 className='text-xl mb-2 font-semibold'>Our history</h2>
+                    <p className='text-gray-500'>Volutpat diam ut venenatis tellus in metus. Nec dui nunc
+                        mattis enim ut tellus eros donec ac odio orci ultrices in.
+                        ellus eros donec ac odio orci ultrices in.</p>
+                </div>
+                <div>
+                    <h2 className='text-xl mb-2 font-semibold'>Our mission</h2>
+                    <p className='text-gray-500'>Volutpat diam ut venenatis tellus in metus. Nec dui nunc
+                        mattis enim ut tellus eros donec ac odio orci ultrices in. ellus
+                        eros donec ac odio orci ultrices in.</p>
+                </div>
+            </section>
+            <div className='mx-auto text-center p-5'><h1 className='text-xl font-semibold'>Our Team</h1></div>
+            {/* section 3 */}
+            <section className='flex gap-8 px-16'>
+                <div>
+                    <p className='text-green-400'>our Team</p>
+                    <h2 className='text-3xl font-semibold'>Meet Our Expert <br />
+                        Team</h2>
+                    <p>Proin ullamcorper pretium orci. Donec necscele risque leo.
+                        Nam massa dolor imperdiet neccon sequata congue idsem.
+                        Maecenas malesuada faucibus finibus.</p>
+
+                    <p>Proin ullamcorper pretium orci. Donec necscele risque leo.
+                        Nam massa dolor imperdiet neccon sequata congue idsem.
+                        Maecenas malesuada faucibus finibus.</p>
+                    <button className='text-white px-2 m-2 p-2 rounded-md bg-green-800'>View All Numbers</button>
+                </div>
+                <div>
+                    <img className='w-48 absolute' src={main} alt="" />
+                    <div className='bg-gray-300 relative text-black'>
+                        <h1>H. Merinda</h1>
+                        <p>CEO & Co-Funder</p>
+                        <div className='flex'>
+                            <FaFacebookSquare />
+                            <FaTwitter />
+                            <FaInstagramSquare />
+                            <FaYoutube />
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src={mai1} alt="" />
+                </div>
+                
+            </section>
+            {/* section 4 */}
+            <section className='px-16 py-10'>
+                <img src={aboutBG} alt="" />
+            </section>
         </div>
     );
 };

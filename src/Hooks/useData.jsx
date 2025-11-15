@@ -4,6 +4,7 @@ const useData = () => {
 
     const [item, setItem] = useState([]);
     const [category, setCategory] = useState([]);
+    const [blog, setBlog] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -32,7 +33,20 @@ const useData = () => {
             })
     }, [])
 
-    return { item, category, loading };
+    useEffect(() => {
+        fetch("/public/Blog.json")
+            .then(res => res.json())
+            .then(data => {
+                setBlog(data)
+                setLoading(false)
+            })
+            .catch(error => {
+                console.log(error.message)
+                setLoading(false)
+            })
+    }, [])
+
+    return { item, category, blog, loading };
 };
 
 export default useData;
