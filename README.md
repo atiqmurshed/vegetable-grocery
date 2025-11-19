@@ -1,4 +1,7 @@
 # Project Name: Vegetable-grocery;
 
-LIVE-LINK: vegetabl-item.surge.sh
+## Live Demo
+
+Check out the live project here: [Live Site](vegetabl-item.surge.sh)
+
 
