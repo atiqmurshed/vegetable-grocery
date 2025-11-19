@@ -35,7 +35,7 @@ const {blog} = useData()
                     {
                         blog.map((b) => (
                             <div className='mb-5 text-center'>
-                                <img src={b.image} alt="" />
+                                <img src={b.image} alt="Loading..." />
                                 <h2 className='text-gray-400'>{b.name}</h2>
                                 <p className='text-xl font-semibold'>{b.title}</p>
                                 <div className='flex text-gray-400 justify-center p-2 gap-2'>

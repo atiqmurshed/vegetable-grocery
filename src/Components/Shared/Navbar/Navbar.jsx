@@ -1,9 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link, } from "react-router-dom";
 import navimg from "../../../assets/images/Nest.png"
 import hotd from "../../../assets/images/Group.png"
+import { useContext } from "react";
+import { UserContext } from "../../../UserContext";
 
 const Navbar = () => {
-
+    const { user, logout } = useContext(UserContext);
     const navLinks = [
         <>
             <li><Link to="/">Home</Link></li>
@@ -11,7 +13,6 @@ const Navbar = () => {
             <li><Link to='/blog'>Blog</Link></li>
             <li><Link to='/contact'>Content</Link></li>
             <li><Link to="/menu">Mega Menu</Link></li>
-            <li><Link>Pages</Link></li>
         </>
     ]
 
@@ -54,10 +55,20 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn bg-green-400">Login</a>
+                {/* {
+                user && (<Link to="/login" className="btn">Login</Link>)
+               } */}
+                {user ? (
+                    <button onClick={logout} className="btn">
+                        Logout
+                    </button>
+                ) : (
+                    <Link to="/login" className="btn">
+                        Login
+                    </Link>
+                )}
             </div>
         </div>
-
     );
 };
 
