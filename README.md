@@ -2,6 +2,6 @@
 
 ## Live Demo
 
-Check out the live project here: [Live Site](vegetabl-item.surge.sh)
+Check out the live project here: [Live Site]((https://vegetabl-item.surge.sh/))
 
 
